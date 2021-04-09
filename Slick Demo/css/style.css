@@ -1,0 +1,14 @@
+/* SLICK STYLING CSS */
+#testimonial .slick-prev:before, #testimonial .slick-next:before {
+    color: #fff;
+	font-family: inherit; /* Small Arrow Icons */
+	font-family: 'slick'; /* Circle Arrow Icons */
+	font-family: initial; /* Big Arrow Icons */
+}
+.slick-initialized .slick-slide {
+	padding: 2rem;
+}
+.slick-slide img {
+    padding: 40%;
+    border-radius: 50%;
+}

@@ -1,0 +1,135 @@
+/* COMMON CSS START */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--bodyHeight: 3000px;
+}
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	min-height: var(--bodyHeight);
+	text-rendering: optimizeLegibility;
+}
+header, section, footer, aside, nav, main, article, figure {
+	display: block;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+ul {
+	list-style-type: none;
+}
+a:link {
+	text-decoration: none;
+}
+.custom_container {
+	max-width: 100rem;
+	width: 90%;
+	margin: 0 auto;
+}
+.inner_area {
+	overflow: hidden;
+	clear: both;
+}
+.actives {
+	color: #fff !important;
+}
+h1 {
+	padding-top: 10rem;
+}
+/* COMMON CSS END */
+/* WAYPOINT NAVIGATION START */
+header#header {
+	background: #000;
+	padding: 1rem 0;}
+header#header .navbar a.logo {
+	font-size: 2rem;
+	font-weight: bold;
+}
+header#header .navbar ul.navbar-nav li.nav-item {
+	margin-left: 2rem;
+}
+/* WAYPOINT NAVIGATION END */
+/* HOME SECTION START */
+section#home {
+    height: 100vh;
+    background: #33d8aa;
+	position: relative;
+}
+section#home .js_sticky {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: .1rem;
+	width: .1rem;
+	background: transparent;
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 5;
+	background: #000;
+	padding: 1.5rem 0;
+}
+.sticky .container {
+	width: 90%;
+}
+/* HOME SECTION END */
+/* ABOUT SECTION START */
+section#about {
+	height: 100vh;
+	background: teal;
+}
+/* ABOUT SECTION END */
+/* CONTACT SECTION START */
+section#contact {
+	height: 100vh;
+	background: purple;
+}
+/* CONTACT SECTION END */
+/* BLOG SECTION START */
+section#blog {
+    height: 100vh;
+    background: #8b7ff3;
+}
+/* BLOG SECTION END */
+/* GALLERY SECTION START */
+section#gallery {
+	padding: 3rem 0;
+	background: #ddd;
+}
+/* GALLERY SECTION END */
+/* VIDEO SECTION START */
+section#video {
+	padding: 2rem 0;
+	background: url(../img/image1.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover top;
+	background-attachment: fixed;
+	height: 50vh;
+}
+section#video i {
+    font-size: 5rem;
+    color: #fff;
+    margin-top: 5rem;
+}
+/* VIDEO SECTION END */
+/* RESPONSIVE STYLE START */
+@media all and (max-width: 767px) {
+	header#header .navbar ul.navbar-nav li.nav-item {
+		margin-left: 0;
+		margin-top: 1rem;
+	}
+}
+/* RESPONSIVE STYLE END */

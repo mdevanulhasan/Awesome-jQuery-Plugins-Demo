@@ -1,0 +1,77 @@
+/* COMMON CSS START */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--bodyHeight: 500px;
+}
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	min-height: var(--bodyHeight);
+	text-rendering: optimizeLegibility;
+}
+header, section, footer, aside, nav, main, article, figure {
+	display: block;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+ul {
+	list-style-type: none;
+}
+a:link {
+	text-decoration: none;
+}
+/* COMMON CSS END */
+/* SKILL SECTION START */
+#skill {
+	background: linear-gradient(rgba(254, 254, 254, .9),rgba(254, 254, 254, .9)), url(../img/skill-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-attachment: scroll;
+	padding: 8rem 0;
+	color: #3c4761;
+	margin-top: 7rem;
+}
+#skill h1 {
+	letter-spacing: .3rem;
+}
+#skill h1::after {
+	background: rgba(223, 232, 237, .9);
+}
+#skill .skillP {
+	color: #393939;
+	font-size: 1.8rem;
+	width: 60%;
+	margin-left: 20%;
+	line-height: 3rem;
+	text-align: center;
+}
+svg.radial-progress circle {
+	stroke-width: 5;
+}
+svg.radial-progress text {
+	fill: #393939;
+}
+svg.web_design circle {
+	stroke: rgba(48, 186, 231, 1);
+}
+svg.html_css circle {
+	stroke: rgba(215, 70, 128, 1);
+}
+svg.graphic_design circle {
+	stroke: rgba(21, 199, 168, 1);
+}
+svg.ui_ux circle {
+	stroke: rgba(235, 125, 75, 1);
+}
+/* SKILL SECTION END */

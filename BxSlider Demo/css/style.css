@@ -1,0 +1,124 @@
+/* COMMON CSS START */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--bodyHeight: 2000px;
+}
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body {
+	font-size: 1.6rem;
+	font-family: georgian;
+	line-height: 2.4rem;
+	min-height: var(--bodyHeight);
+	text-rendering: optimizeLegibility;
+}
+header, section, aside, footer, nav, main, article, figure {
+	display: block;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+ul {
+	list-style-type: none;
+}
+a:link {
+	text-decoration: none;
+}
+.containers {
+	max-width: 100rem;
+	width: 90%;
+	margin: 0 auto;
+	clear: both;
+}
+/* COMMON CSS END */
+/* SLIDER AREA START */
+#slider_area {
+	padding: 3rem 0;
+}
+.slider_area .item {
+	position: relative;
+	cursor: grab;
+	width: 100% !important;
+}
+.slider_area .item .slider_caption {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.slider_area .item .slider_caption h1 {
+	color: #fff;
+	font-size: 3rem;
+	font-weight: bold;
+}
+.slider_area .item .slider_caption .short_description {
+	color: #fff;
+	font-size: 2rem;
+	font-style: italic;
+}
+.slider_area .item .slider_caption .read_more {
+    color: #56e4f3;
+    background: #fff;
+    padding: 1rem 2rem;
+    border-radius: .3rem;
+    margin: 2rem auto;
+    display: block;
+    width: 30%;
+    text-align: center;
+    border: .2rem solid #5fe5f3;
+    transition: .3s all ease;
+}
+.slider_area .item .slider_caption .read_more:hover {
+    background: #aef2f9;
+    color: #fff;
+    border: .2rem solid #aef2f9;
+}
+.bx-wrapper .bx-pager {
+    bottom: 1.8rem;
+}
+.bx-wrapper {
+	box-shadow: 0px 0px 10px 2px #969494;
+	margin-bottom: 0;
+	border: none;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    width: 25px;
+    height: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 1px;
+    background: #fff;
+}
+/* SLIDER AREA END */
+/* RESPONSIVE STYLE START */
+@media only screen and (max-width: 540px) {
+	#slider_area {
+		padding: 1rem 0;
+	}
+	.slider_area .item .slider_caption h1 {
+		font-size: 1.8rem;
+		line-height: 2rem;
+	}
+	.slider_area .item .slider_caption .short_description {
+		font-size: 1.4rem;
+		line-height: 1.4rem;
+	}
+	.slider_area .item .slider_caption .read_more {
+		font-size: 1.5rem;
+		padding: .5rem;
+		width: 70%;
+	}
+	.bx-wrapper .bx-pager {
+		bottom: -3rem;
+	}
+	.bx-wrapper .bx-pager.bx-default-pager a {
+		background: #d4cfcf;
+	}
+}
+/* RESPONSIVE STYLE END */

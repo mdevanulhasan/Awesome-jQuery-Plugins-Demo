@@ -1,0 +1,90 @@
+/* COMMON CSS START */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--bodyHeight: 2000px;
+}
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	min-height: var(--bodyHeight);
+	text-rendering: optimizeLegibility;
+}
+header, section, footer, aside, nav, main, article, figure {
+	display: block;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+ul {
+	list-style-type: none;
+}
+a:link {
+	text-decoration: none;
+}
+.containers {
+	max-width: 100rem;
+	width: 96%;
+	margin: 0 auto;
+}
+.inner_area {
+	overflow: hidden;
+}
+/* COMMON CSS END */
+/* PORTFOLIO SECTION START */
+#portfolio {
+	background: linear-gradient(rgba(255, 224, 163, .9),rgba(255, 224, 163, .9)), url(../img/portfolio-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 3rem 0;
+	color: #3c4761;
+}
+#portfolio h2 {
+	letter-spacing: .3rem;
+}
+#portfolio h2::after {
+	background: rgba(229, 195, 127, .9);
+}
+#portfolio button {
+	background: rgba(235, 201, 133, 1);
+	padding: 1rem 2rem;
+	margin: .5rem;
+	border: 0;
+	border-radius: .5rem;
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	transition: .5s;
+	cursor: pointer;
+}
+#portfolio button:hover {
+	box-shadow: 0px 3px 5px 0px rgba(60, 71, 97, .5) inset;
+}
+#portfolio h4 {
+	font-size: 1.8rem;
+}
+#portfolio .mixitup-control-active {
+	background: #fff;
+}
+/* PORTFOLIO SECTION END */
+/* RESPONSIVE SECTION START */
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+	html {
+		font-size: 50%;
+	}
+}
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+	html {
+		font-size: 45%;
+	}
+}
+/* RESPONSIVE SECTION END */

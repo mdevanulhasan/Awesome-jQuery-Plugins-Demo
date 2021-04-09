@@ -1,0 +1,160 @@
+/* COMMON CSS START */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--bodyHeight: 1000px;
+}
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	min-height: var(--bodyHeight);
+	text-rendering: optimizeLegibility;
+	background: purple;
+}
+header, section, footer, aside, nav, main, article, figure {
+	display: block;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+ul {
+	list-style-type: none;
+}
+a:link {
+	text-decoration: none;
+}
+.custom_container {
+	max-width: 100rem;
+	width: 90%;
+	margin: 0 auto;
+}
+/* COMMON CSS END */
+/* NAVIGATION MENU START */
+header#header {
+	padding: 5rem 0;
+	background: #000;
+}
+header#header .header_area {
+	background: #fff;
+}
+header#header .header_area nav ul {
+	width: 70%;
+	margin: auto;
+}
+header#header .header_area nav ul li {
+    display: inline-block;
+    margin-right: 2rem;
+    position: relative;
+    padding: 2rem 0;
+}
+header#header .header_area nav ul li a {
+    color: mediumvioletred;
+	display: block;
+	transition: .3s all ease;
+}
+header#header .header_area nav ul li a:hover {
+	color: #000;
+}
+header#header .header_area nav ul li ul {
+    position: absolute;
+    /* top: 9.9rem; */
+    top: 6.5rem;
+    left: 0;
+    width: 15rem;
+    background: #fff;
+    transition: .3s all ease;
+    /* transform: scaleY(0); */
+	height: 0;
+}
+header#header .header_area nav ul li:hover ul {
+    /* transform: scaleY(1.5); */
+	height: 13rem;
+}
+header#header .header_area nav ul li ul li {
+    padding: 0;
+    margin: 0;
+    position: relative;
+	display: none;
+}
+header#header .header_area nav ul li:hover ul li {
+	display: block;
+}
+header#header .header_area nav ul li ul li a {
+	padding: 1rem;
+	color: #000;
+	display: block;
+}
+header#header .header_area nav ul li ul li a:hover {
+	background: #000;
+	color: #fff;
+}
+header#header .header_area nav ul li ul li ul {
+    position: absolute;
+    top: 0;
+    left: 15.1rem;
+	transition: .3s all ease;
+	/* width: 0; */
+	transform: scaleX(0);
+}
+header#header .header_area nav ul li ul li:hover ul {
+	top: 0;
+    left: 15.1rem;
+	/* width: 100%; */
+	transform: scaleX(1);
+}
+header#header .header_area nav ul li ul li ul li {
+	display: none;
+}
+header#header .header_area nav ul li ul li:hover ul li {
+	display: block;
+}
+header#header .header_area nav ul li ul li ul li a {
+	display: none;
+}
+header#header .header_area nav ul li ul li:hover ul li a {
+	display: block;
+}
+/* NAVIGATION MENU END */
+/* RESPONSIVE STYLE START */
+@media all and (max-width: 767px) {
+	header#header {
+		background: none;
+	}
+	.mean-container a.meanmenu-reveal span {
+		display: inline;
+	}
+	.mean-container a.meanmenu-reveal {
+		width: 0;
+		margin-right: 1rem;
+	}
+	span::after {
+		content: "";
+		display: block;
+		clear: both;
+		margin-top: .5rem;
+		height: .2rem;
+		width: 1.2rem;
+		background: #fff;
+	}
+	.mean-container .mean-nav ul li li a {
+		padding: 1em 5%;
+	}
+	.mean-container .mean-nav ul li li li a {
+		padding: 1em 5%;
+	}
+	.mean-container .mean-nav ul li li a {
+		width: 100%;
+	}
+	.mean-container .mean-nav ul li li li a {
+		width: 100%;
+	}
+}
+/* RESPONSIVE STYLE END */

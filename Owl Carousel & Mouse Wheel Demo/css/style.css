@@ -1,0 +1,118 @@
+/* COMMON CSS START */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Open+Sans&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--bodyHeight: 2000px;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	min-height: var(--bodyHeight);
+	scroll-behavior: smooth;
+	text-rendering: optimizeLegibility;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+h2, h3 {
+	font-family: 'Arvo', serif;
+	font-weight: 700;
+}
+h2 {
+	color: #222;
+	text-transform: uppercase;
+	font-size: 2.1rem;
+}
+h3 {
+	color: #333;
+	text-transform: capitalize;
+	font-size: 1.6rem;
+	margin-top: .5rem;
+}
+p {
+	font-size: 1.6rem;
+	margin: 1rem 0;
+}
+a {
+	text-decoration: none;
+}
+/* COMMON CSS END */
+/* TESTIMONIAL SECTION START */
+#testimonial {
+	background: #f63854;
+	padding: 4rem 0;
+	text-align: center;
+	line-height: 3rem;
+	position: relative;
+	margin-top: 5.5rem;
+}
+#testimonial .container {
+	max-width: 96rem;
+	width: 90%;
+	margin: 0 auto;
+}
+#testimonial .container .testimonial_item {
+	background: #fff;
+	padding: 2rem;
+	border-radius: 1rem;
+}
+#testimonial .container .img_thumb {
+	margin: 1rem;
+}
+#testimonial .container .img_thumb img {
+	width: inherit !important;
+	border-radius: 50%;
+	margin: auto;
+	padding: 2rem;
+}
+#testimonial .owl-dots {
+	margin-top: 2rem;
+}
+#testimonial .owl-theme .owl-dots .owl-dot span {
+	background: #fff;
+	border: .2rem solid #fff;
+	height: 1.5rem;
+	width: 1.5rem;
+}
+#testimonial .owl-theme .owl-dots .owl-dot.active span {
+	background: #f63854;
+}
+#testimonial .owl-theme .owl-dots .owl-dot:hover span {
+	background: #f63854;
+}
+#testimonial .ratings {
+	color: gold;
+}
+#testimonial .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 35%;
+    height: 30px;
+    right: 1%;
+    font-size: 50px;
+    width: 30px;
+    color: #f63854;
+    border-radius: 50%;
+    padding: 1px 1px 1px 1px;
+}
+#testimonial .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 35%;
+    height: 30px;
+    left: 1%;
+    font-size: 50px;
+    width: 30px;
+    color: #f63854;
+    border-radius: 50%;
+    padding: 1px 1px 1px 1px;
+}
+#testimonial .owl-theme .owl-nav [class*=owl-]:hover {
+    color: #f63854;
+    background: none;
+}
+/* TESTIMONIAL SECTION END */
