@@ -1,6 +1,6 @@
 # Welcome to My GitHub Pages.
 
-## This awesome plugins demo is only use for educational purpose...!
+## This "awesome plugins demo" is only use for educational purpose...!
 
 ### Where we can use ?
 
@@ -32,4 +32,4 @@ Having trouble with demos? Check out our [documentation](https://mdevanulhasan.b
 - So, yes; you are welcome , you can contrubute this with me and imporve this demos.
 ```
 
-``` Thanks for visiting my demos pages. ```
+``` Thanks for visiting my demo pages. ```
