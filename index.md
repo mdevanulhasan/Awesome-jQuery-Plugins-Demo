@@ -1,6 +1,6 @@
-# :octocat: Welcome to My GitHub Pages.
+# Welcome to My GitHub Pages.
 
-## :sparkles: This plugins demo is only use for educational purpose...!
+## This plugins demo is only use for educational purpose...!
 
 ### Where we can use ?
 
@@ -35,4 +35,4 @@ Having trouble with demos? Check out our [documentation](https://mdevanulhasan.b
 
 ## ![Image of Md Evanul Hasan](https://github.com/mdevanulhasan/Awesome-Plugins-Demo/blob/main/Slick%20Demo/img/md_evanul_hasan.jpg).
 
-:sunglasses: ``` Created by: Md Evanul Hasan ```
+``` Created by: Md Evanul Hasan ```
