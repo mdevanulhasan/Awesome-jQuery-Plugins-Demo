@@ -1,6 +1,6 @@
 # Welcome to My GitHub Pages.
 
-## This plugins demo is only use for educational purpose...!
+## This awesome plugins demo is only use for educational purpose...!
 
 ### Where we can use ?
 
@@ -30,9 +30,6 @@ Having trouble with demos? Check out our [documentation](https://mdevanulhasan.b
 ```markdown
 - If you want to increase your knowledge and contribute it to improve it more.
 - So, yes; you are welcome , you can contrubute this with me and imporve this demos.
-- Thanked by MD Evanul Hasan.
 ```
 
-## ![Image of Md Evanul Hasan](https://github.com/mdevanulhasan/Awesome-Plugins-Demo/blob/main/Slick%20Demo/img/md_evanul_hasan.jpg).
-
-``` Created by: Md Evanul Hasan ```
+``` Thanks for visiting my demos pages. ```
