@@ -1,0 +1,49 @@
+/* common css start */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--bodyHeight: 2000px;
+}
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	min-height: var(--bodyHeight);
+	text-rendering: optimizeLegibility;
+}
+header, section, footer, aside, nav, main, article, figure {
+	display: block;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+ul {
+	list-style-type: none;
+}
+a:link {
+	text-decoration: none;
+}
+/* common css end */
+/* bootstrap css fix start */
+.navbar {
+	padding: 1.5rem 0;
+}
+.navbar-brand {
+	font-size: 2rem;
+	font-weight: bold;
+}
+.active {
+	background: #fff;
+	color: #000!important;
+	border-radius: .5rem;
+	display: inline-block;
+	padding: .5rem 1rem!important;
+}
+/* bootstrap css fix end */
