@@ -1,0 +1,49 @@
+/* common css start */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--bodyHeight: 2000px;
+}
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	min-height: var(--bodyHeight);
+	text-rendering: optimizeLegibility;
+}
+header, section, footer, aside, nav, main, article, figure {
+	display: block;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+ul {
+	list-style-type: none;
+}
+a:link {
+	text-decoration: none;
+}
+/* common css end */
+/* custom css start */
+.content {
+    text-align: center;
+    margin: 5rem 0;
+}
+h1 {
+	padding: 2rem 0;
+}
+.spacing {
+    letter-spacing: 0.2rem;
+}
+span {
+	padding: 1rem 0;
+	display: inline-block;
+}
+/* custom css end */
