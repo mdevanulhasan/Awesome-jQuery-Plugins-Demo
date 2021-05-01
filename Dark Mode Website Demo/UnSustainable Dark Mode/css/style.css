@@ -1,0 +1,136 @@
+/* COMMON CSS START */
+@import url("https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+:root {
+  --bodyHeight: 2000px;
+  --primary-color: #edf2fc;
+  --secondary-color: #212121; }
+
+.dark-theme {
+  --primary-color: #000106;
+  --secondary-color: #fff; }
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
+
+body {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  min-height: var(--bodyHeight);
+  text-rendering: optimizeLegibility;
+  font-family: 'Karantina', cursive; }
+
+header, section, footer, aside, nav, main, article, figure {
+  display: block; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+ul {
+  list-style-type: none; }
+
+a:link {
+  text-decoration: none; }
+
+/* COMMON CSS END */
+/* HEADER SECTION START */
+header#header {
+  background-color: var(--primary-color);
+  height: 100vh;
+  /* NAVIGATION SECTION START */
+  /* NAVIGATION SECTION END */
+  /* MAIN CONTENT SECTION START */
+  /* MAIN CONTENT SECTION END */ }
+  header#header .inner_area {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto; }
+  header#header nav {
+    padding: 2rem 0; }
+    header#header nav a.logo {
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--secondary-color); }
+    header#header nav .fa-bars {
+      color: var(--secondary-color); }
+    header#header nav .navbar-nav .nav-item {
+      margin-right: 2rem; }
+      header#header nav .navbar-nav .nav-item .nav-link {
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: .1rem;
+        padding-top: .8rem;
+        color: var(--secondary-color);
+        transition: .3s all linear; }
+      header#header nav .navbar-nav .nav-item .nav-link:hover {
+        color: #ff4321; }
+    header#header nav .navbar-nav #icon {
+      width: 3rem; }
+  header#header main#content .inner_content1 {
+    margin-top: 18rem; }
+    header#header main#content .inner_content1 h1 {
+      font-size: 5rem;
+      letter-spacing: .4rem;
+      color: var(--secondary-color);
+      margin: 2rem 0;
+      line-height: 5rem; }
+      header#header main#content .inner_content1 h1 span {
+        color: #ff4321; }
+    header#header main#content .inner_content1 p.description {
+      font-size: 2.5rem;
+      line-height: 3rem;
+      letter-spacing: .1rem;
+      color: var(--secondary-color); }
+    header#header main#content .inner_content1 a.button {
+      display: inline-block;
+      margin: 3rem 0;
+      font-size: 2.5rem;
+      letter-spacing: .1rem;
+      color: var(--primary-color);
+      background-color: var(--secondary-color);
+      border-radius: .5rem;
+      padding: 1rem 2rem;
+      border: .1rem solid transparent;
+      transition: .3s all linear; }
+    header#header main#content .inner_content1 a.button:hover {
+      color: #ff4321;
+      border: .1rem solid #ff4321;
+      background-color: transparent; }
+    header#header main#content .inner_content1 .social_icons {
+      margin: 5rem 0; }
+      header#header main#content .inner_content1 .social_icons a {
+        font-size: 3rem;
+        padding: 1rem;
+        color: var(--secondary-color);
+        transition: .3s all linear; }
+      header#header main#content .inner_content1 .social_icons a:first-child {
+        padding-left: 0; }
+      header#header main#content .inner_content1 .social_icons a:hover {
+        color: #ff4321; }
+  header#header main#content .inner_content2 {
+    width: 89%;
+    position: absolute;
+    top: 12%; }
+    header#header main#content .inner_content2 img {
+      position: absolute;
+      left: 6%; }
+    header#header main#content .inner_content2 .bg_img {
+      position: absolute;
+      top: 2rem;
+      transform: translateY(3rem);
+      transition: 1s all ease; }
+    header#header main#content .inner_content2 .my_img {
+      position: absolute;
+      transition: 1s all ease; }
+  header#header main#content .inner_content2:hover .bg_img {
+    transform: translateY(-3rem); }
+  header#header main#content .inner_content2:hover .my_img {
+    transform: translateX(3rem); }
+
+/* HEADER SECTION END */

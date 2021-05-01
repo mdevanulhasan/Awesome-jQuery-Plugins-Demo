@@ -1,0 +1,22 @@
+
+/* RESPONSIVE STYLE START */
+@media all and (max-width: 767px) {
+    html {
+        font-size: 50%;
+    }
+    header#header {
+        height: 180vh;
+    }
+    header#header main#content .inner_content1 {
+        margin-top: 0rem;
+    }
+    header#header main#content .inner_content2 {
+        header#header main#content .inner_content2 {
+            width: 53%;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+        }
+    }
+}
+/* RESPONSIVE STYLE END */
