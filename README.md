@@ -23,7 +23,7 @@
 ```
 ### Support or Contact :
 
-Having trouble with demos? Check out our [documentation](https://mdevanulhasan.blogspot.com) or [contact support](https://mdevanulhasan@gmail.com) and we’ll help you sort it out.
+Having trouble with demos? Check out our [documentation](https://mdevanulhasan.blogspot.com) or [contact support](mdevanulhasan@gmail.com) and we’ll help you sort it out.
 
 ### Conclusion :
 
