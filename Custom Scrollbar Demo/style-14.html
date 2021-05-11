@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<title>Scrollbar Style 14</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="anyThing" />
+		<meta name="keywords" content="anyThing" />
+		<meta name="author" content="anyThing" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="icon" href="anyFileLocation" />
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				font-family: consolas;
+			}
+			body {
+				background: #fff;
+				min-height: 2000px;
+			}
+			h1 {
+				color: #000;
+				position: fixed;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+			::-webkit-scrollbar-track {
+				-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+				background-color: #F5F5F5;
+				border-radius: 10px;
+			}
+			::-webkit-scrollbar {
+				width: 10px;
+				background-color: #F5F5F5;
+			}
+			::-webkit-scrollbar-thumb {
+				border-radius: 10px;
+				background-color: #FFF;
+				background-image: -webkit-linear-gradient(top,
+				#e4f5fc 0%,
+				#bfe8f9 50%,
+				#9fd8ef 51%,
+				#2ab0ed 100%);
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Scroll Down The Page...!</h1>
+	</body>
+</html>
