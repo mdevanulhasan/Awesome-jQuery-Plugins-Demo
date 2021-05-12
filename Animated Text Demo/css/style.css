@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header, section, footer, aside, nav, main, article, figure {
+	display: block;
+}
+:root {
+	--bodyHeight: 2000px;
+	scroll-behavior: smooth;
+}
+body {
+	min-height: var(--bodyHeight);
+}
+
+h1 {
+	text-align: center;
+	padding: 40px 0 20px 0;
+}
+
+.text_box {
+    width: 80%;
+    height: 20vh;
+    margin: 20px auto;
+    display: block;
+	font-size: 30px;
+	text-transform: uppercase;
+	background: #000;
+	color: #fff;
+}
