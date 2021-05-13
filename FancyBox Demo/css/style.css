@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header, section, footer, aside, nav, main, article, figure {
+	display: block;
+}
+:root {
+	--bodyHeight: 1000px;
+}
+body {
+	min-height: var(--bodyHeight);
+	font-family: cursive;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.container {
+	max-width: 1000px;
+	width: 90%;
+	margin: 40px auto;
+}
+.fancybox-progress {
+    background: #20a5ba;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scaleX(0);
+    transform-origin: 0;
+    transition-property: transform;
+    transition-timing-function: linear;
+    z-index: 99998;
+}
+.fancybox-thumbs__list a:before {
+    border: 5px solid #20a5ba;
+    bottom: 0;
+    content: "";
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all .2s cubic-bezier(.25,.46,.45,.94);
+    z-index: 99991;
+}
