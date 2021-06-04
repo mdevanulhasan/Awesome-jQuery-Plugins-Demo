@@ -16,7 +16,6 @@ body {
 	line-height: 2.4rem;
 	min-height: var(--bodyHeight);
 	text-rendering: optimizeLegibility;
-	background: purple;
 }
 header, section, footer, aside, nav, main, article, figure {
 	display: block;
@@ -38,95 +37,81 @@ a:link {
 }
 /* COMMON CSS END */
 /* NAVIGATION MENU START */
-header#header {
-	padding: 5rem 0;
-	background: #000;
+header {
+	background: #000; 
 }
-header#header .header_area {
-	background: #fff;
+header a.logo {
+	font-size: 2rem;
 }
-header#header .header_area nav ul {
-	width: 70%;
-	margin: auto;
+header .main-menu ul {
+	margin-bottom: 0; 
 }
-header#header .header_area nav ul li {
-    display: inline-block;
-    margin-right: 2rem;
-    position: relative;
-    padding: 2rem 0;
+header .main-menu ul li {
+	display: inline-block;
+	margin-left: 2rem;
+	position: relative; 
 }
-header#header .header_area nav ul li a {
-    color: mediumvioletred;
+header .main-menu ul li a {
+	padding: 2rem;
 	display: block;
-	transition: .3s all ease;
+	color: #fff; 
 }
-header#header .header_area nav ul li a:hover {
-	color: #000;
+header .main-menu ul li ul.dropdown {
+	position: absolute;
+	top: 120%;
+	left: 0;
+	width: 15rem;
+	background: red;
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s all ease; 
 }
-header#header .header_area nav ul li ul {
-    position: absolute;
-    /* top: 9.9rem; */
-    top: 6.5rem;
-    left: 0;
-    width: 15rem;
-    background: #fff;
-    transition: .3s all ease;
-    /* transform: scaleY(0); */
-	height: 0;
-}
-header#header .header_area nav ul li:hover ul {
-    /* transform: scaleY(1.5); */
-	height: 13rem;
-}
-header#header .header_area nav ul li ul li {
-    padding: 0;
-    margin: 0;
-    position: relative;
-	display: none;
-}
-header#header .header_area nav ul li:hover ul li {
+header .main-menu ul li ul.dropdown li {
 	display: block;
+	margin: 0;
+	position: relative; 
 }
-header#header .header_area nav ul li ul li a {
-	padding: 1rem;
-	color: #000;
+header .main-menu ul li ul.dropdown li a {
 	display: block;
+	text-align: left;
+	color: #fff; 
 }
-header#header .header_area nav ul li ul li a:hover {
-	background: #000;
-	color: #fff;
-}
-header#header .header_area nav ul li ul li ul {
-    position: absolute;
-    top: 0;
-    left: 15.1rem;
-	transition: .3s all ease;
-	/* width: 0; */
-	transform: scaleX(0);
-}
-header#header .header_area nav ul li ul li:hover ul {
+header .main-menu ul li ul.dropdown li ul.sub-dropdown {
+	position: absolute;
 	top: 0;
-    left: 15.1rem;
-	/* width: 100%; */
-	transform: scaleX(1);
+	left: 110%;
+	width: 100%;
+	background: red;
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s all ease; 
 }
-header#header .header_area nav ul li ul li ul li {
-	display: none;
+header .main-menu ul li ul.dropdown li:hover > a {
+	background: #000; 
 }
-header#header .header_area nav ul li ul li:hover ul li {
-	display: block;
+header .main-menu ul li ul.dropdown li:hover ul.sub-dropdown {
+	left: 100%;
+	opacity: 1;
+	visibility: visible; 
 }
-header#header .header_area nav ul li ul li ul li a {
-	display: none;
+header .main-menu ul li:hover a {
+	color: red; 
 }
-header#header .header_area nav ul li ul li:hover ul li a {
-	display: block;
+header .main-menu ul li:hover ul.dropdown {
+	top: 100%;
+	opacity: 1;
+	visibility: visible; 
 }
 /* NAVIGATION MENU END */
+
 /* RESPONSIVE STYLE START */
 @media all and (max-width: 767px) {
-	header#header {
-		background: none;
+	a.logo {
+		position: fixed;
+		left: 3%;
+		top: 7.3%;
+		z-index: 999999999;
+		transform: translateY(-38px);
 	}
 	.mean-container a.meanmenu-reveal span {
 		display: inline;
@@ -144,17 +129,20 @@ header#header .header_area nav ul li ul li:hover ul li a {
 		width: 1.2rem;
 		background: #fff;
 	}
-	.mean-container .mean-nav ul li li a {
+	.mean-container .mean-nav ul li li a, .mean-container .mean-nav ul li li li a {
+		width: 100%;
 		padding: 1em 5%;
 	}
-	.mean-container .mean-nav ul li li li a {
-		padding: 1em 5%;
+	.mean-container .mean-bar {
+		background: #000;
 	}
-	.mean-container .mean-nav ul li li a {
-		width: 100%;
+	.mean-container .mean-nav ul li a:hover {
+		background: red;
+		opacity: 1;
+		transition: .3s;
 	}
-	.mean-container .mean-nav ul li li li a {
-		width: 100%;
+	.mean-container .mean-nav {
+		background: #000;
 	}
 }
 /* RESPONSIVE STYLE END */
