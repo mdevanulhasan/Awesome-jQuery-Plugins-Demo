@@ -1,0 +1,82 @@
+/* CUSTOM CSS START */
+#preloader1 {
+    background: #000 url(../img/circle-loader.gif) no-repeat center;
+	background-size: 10%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+}
+#preloader2 {
+    background: #fff url(../img/Bounce-Bar-Preloader.gif) no-repeat center;
+	background-size: 50%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+}
+#preloader3 {
+    background: #fff url(../img/Spin-Preloader.gif) no-repeat center;
+    background-size: 30%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+}
+#preloader4 {
+    background: #fff url(../img/transparent.gif) no-repeat center;
+    background-size: 40%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+}
+#preloader5 {
+    background: #00a3fe url(../img/bg-primary-check.gif) no-repeat center;
+    background-size: 40%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+}
+#preloader6 {
+    background: #fffef7 url(../img/little-loader.gif) no-repeat center;
+    background-size: 30%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+}
+#preloader7 {
+    background: #fff url(../img/gorgeous.gif) no-repeat center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+}
+#preloader8 {
+    background: #fff url(../img/Color-Fill-loading-Image.gif) no-repeat center;
+    background-size: 50%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+}
+#preloader9 {
+    background: #fff url(../img/loadingAnimation.gif) no-repeat center;
+    background-size: 10%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+}
+#preloader10 {
+    background: #515781 url(../img/gorgeous1.gif) no-repeat center;
+    background-size: 40%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+}
+/* CUSTOM CSS END */
