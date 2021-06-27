@@ -1,0 +1,44 @@
+/* CUSTOM CSS START */
+#open-popup {
+  padding:15px;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 40px;
+  width: auto;
+  max-width: 200px;
+  margin: 20px auto;
+  text-align: center;
+}
+.mfp-close-btn-in .mfp-close {
+  color: #a2a2a2;
+}
+.mfp-arrow-left:after {
+  border-right: 17px solid #fa20fa;
+}
+.mfp-arrow-right:after {
+  border-left: 17px solid #fa20fa;
+  margin-left: 39px;
+}
+.popup {
+  padding: 15px;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.purple-popup {
+  position: relative;
+  background: purple;
+  color: #fff;
+  padding: 40px;
+  width: auto;
+  max-width: 200px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* CUSTOM CSS END */
