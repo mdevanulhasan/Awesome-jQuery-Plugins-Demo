@@ -1,0 +1,83 @@
+/* CUSTOM CSS START */
+/* Header Section Start */
+.active {
+  color: #FFF; }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background: purple !important;
+  box-shadow: 0rem -2rem 4rem 2rem #fff; }
+
+.sticky .active {
+  color: #fff !important; }
+
+.sticky .nav-link:hover {
+  color: #fff !important; }
+
+header#header {
+  background: red;
+  height: 100vh;
+  position: relative; }
+  header#header .js_sticky {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: .5rem;
+    width: .5rem;
+    background: yellow; }
+  header#header .navbar {
+    background: #000;
+    padding: 1rem 0;
+    z-index: 999; }
+    header#header .navbar a.navbar-brand {
+      font-size: 2rem;
+      font-weight: bold;
+      transition: .3s all ease; }
+    header#header .navbar a.navbar-brand:hover {
+      color: #ddd; }
+    header#header .navbar .nav-item {
+      margin-left: 2rem; }
+      header#header .navbar .nav-item .nav-link {
+        transition: .3s all ease; }
+      header#header .navbar .nav-item .nav-link:hover {
+        color: #fff; }
+
+/* Header Section End */
+/* Other Section Start */
+#green {
+  background: green;
+  height: 100vh; }
+
+#blue {
+  background: blue;
+  height: 100vh; }
+
+#purple {
+  background: purple;
+  height: 100vh; }
+
+#yellow {
+  background: yellow;
+  height: 100vh; }
+
+#teal {
+  background: teal;
+  height: 100vh; }
+
+/* Other Section End */
+/* Responsive Style Start */
+@media all and (max-width: 767px) {
+  header#header .navbar .nav-item {
+    margin-left: 0; }
+  .navbar-expand-md .container {
+    padding: 0 1.5rem; }
+  .navbar-nav .nav-item {
+    margin: 0;
+    padding: .5rem 0; } }
+
+/* Responsive Style End */
+/* CUSTOM CSS END */
