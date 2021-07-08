@@ -1,0 +1,29 @@
+/* Custom CSS Start */
+.container {
+	max-width: 900px;
+	margin: auto;
+}
+.w3-black, .w3-hover-black:hover {
+	background-color: purple!important;
+}
+.w3-border {
+	border: 1px solid #ccc!important;
+	background: #ddd;
+	color: #1f9a81;
+}
+.w3-button:hover {
+	color: #fff!important;
+	background-color: #f44336!important;
+}
+.w3-container {
+    margin-top: 10px;
+}
+.w3-sidebar {
+    height: auto;
+}
+@media all and (max-width: 767px) {
+	.w3-sidebar {
+		width: auto !important;
+	}
+}
+/* Custom CSS End */

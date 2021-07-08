@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <title>Project Title</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="anything" />
+        <meta name="keywords" content="anything" />
+        <meta name="author" content="anything" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+			<div class="row py-5">
+			  <div class="col">
+				<div class="display-4 text-center text-info">Images Tabs:</div>
+			  </div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row py-3">
+			  <div class="col">
+				<div class="h1 text-info text-center">Without Animation:</div>
+			  </div>
+			</div>
+			<div class="row py-3">
+				<div class="col">
+					<div class="w3-row-padding">
+						<div class="w3-col s3 w3-container">
+							<a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Doctor_Prescribe');">
+							<img src="img/1.jpg" alt="Doctor_Prescribe" style="width:100%">
+							</a>
+						</div>
+						<div class="w3-col s3 w3-container">
+							<a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Taking_coffee');">
+							<img src="img/2.jpg" alt="Taking_coffee" style="width:100%">
+							</a>
+						</div>
+						<div class="w3-col s3 w3-container">
+							<a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Some_Research');">
+							<img src="img/3.jpg" alt="Some_Research" style="width:100%">
+							</a>
+						</div>
+						<div class="w3-col s3 w3-container">
+						<a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('thinking_something');">
+						<img src="img/4.jpg" alt="thinking_something" style="width:100%">
+						</a>
+						</div>
+					</div><br>
+
+					<div id="Doctor_Prescribe" class="picture w3-display-container" style="display:none">
+						<img src="img/1.jpg" alt="Doctor_Prescribe" style="width:100%">
+						<span onclick="this.parentElement.style.display='none'" class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
+						<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Doctor Prescribe</div>
+					</div>
+
+					<div id="Taking_coffee" class="picture w3-display-container" style="display:none">
+						<img src="img/2.jpg" alt="Taking_coffee" style="width:100%">
+						<span onclick="this.parentElement.style.display='none'" class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
+						<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Taking coffee</div>
+					</div>
+
+					<div id="Some_Research" class="picture w3-display-container" style="display:none">
+						<img src="img/3.jpg" alt="Some_Research" style="width:100%">
+						<span onclick="this.parentElement.style.display='none'" class="w3-display-topright w3-button w3-transparent">&times;</span>
+						<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Some Research</div>
+					</div>
+
+					<div id="thinking_something" class="picture w3-display-container" style="display:none">
+						<img src="img/4.jpg" alt="thinking_something" style="width:100%">
+						<span onclick="this.parentElement.style.display='none'" class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
+						<div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Thinking Something</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

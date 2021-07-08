@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <title>Project Title</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="anything" />
+        <meta name="keywords" content="anything" />
+        <meta name="author" content="anything" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+			<div class="row py-5">
+			  <div class="col">
+				<div class="display-4 text-center text-info">Horizontal Tabs:</div>
+			  </div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row py-3">
+			  <div class="col">
+				<div class="h1 text-info text-center">Without Animation:</div>
+			  </div>
+			</div>
+			<div class="row py-3">
+			  <div class="col">
+				  <div class="w3-container">
+				  
+					<div class="w3-bar w3-black">
+					  <button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'Bangladesh')">Bangladesh</button>
+					  <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'India')">India</button>
+					  <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Malaysia')">Malaysia</button>
+					  <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Pakistan')">Pakistan</button>
+					</div>
+					
+					<div id="Bangladesh" class="w3-container w3-border city">
+					  <h2>Bangladesh</h2>
+					  <p>Dhaka is the capital city of Bangladesh.</p>
+					</div>
+					<div id="India" class="w3-container w3-border city" style="display:none">
+					  <h2>India</h2>
+					  <p>New Delhi is the capital of India.</p> 
+					</div>
+					<div id="Malaysia" class="w3-container w3-border city" style="display:none">
+					  <h2>Malaysia</h2>
+					  <p>kuala lumpur is the capital of Malaysia.</p>
+					</div>
+					<div id="Pakistan" class="w3-container w3-border city" style="display:none">
+					  <h2>Pakistan</h2>
+					  <p>Islamabad is the capital of Pakistan.</p>
+					</div>
+
+				  </div>
+			  </div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
