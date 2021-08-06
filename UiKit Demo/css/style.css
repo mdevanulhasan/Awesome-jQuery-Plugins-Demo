@@ -1,0 +1,51 @@
+ul.uk-custom.uk-accordion {
+	max-width: 600px;
+	margin: 100px auto;
+    background: #ddd;
+}
+ul.uk-custom.uk-accordion li:nth-child(1) {
+	border-bottom: 1px solid #ccc;
+}
+ul.uk-custom.uk-accordion li:nth-child(2) {
+	border-bottom: 1px solid #ccc;
+}
+.uk-accordion-title::before {
+    width: 1em;
+}
+a.uk-accordion-title {
+    background: #6666;
+    padding: 10px;
+}
+.uk-accordion>:nth-child(n+2) {
+    margin-top: 0;
+}
+.uk-accordion-content {
+    padding: 10px;
+}
+li.uk-open .uk-accordion-title {
+    background: #fd5050;
+	color: #fff;
+}
+#my-owl-practise {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+}
+.uk-position-relative.uk-visible-toggle.uk-light.uk-slideshow.uk-grid-margin {
+    margin-top: 30px;
+}
+.uk-position-center-left {
+    left: 25px;
+}
+.uk-overlay {
+    padding: 20px;
+}
+.uk-width-medium {
+    width: 50%;
+}
+.uk-position-small[class*=uk-position-center-left], .uk-position-small[class*=uk-position-center-right] {
+    transform: translateY(-50%) translateY(10px);
+}
+/* .uk-position-small[class*=uk-position-center-left], .uk-position-small[class*=uk-position-center-right] { */
+    /* transform: translateY(-50%) translateY(-26%); */
+/* } */

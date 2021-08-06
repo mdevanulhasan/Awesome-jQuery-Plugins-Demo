@@ -2,7 +2,7 @@
 
 ## This "awesome plugins demo" is only use for educational purpose...!
 
-### :briefcase: Where we can use ?
+### Where we can use ?
 
 ```markdown
 
@@ -12,7 +12,7 @@
 - Our practice project
 
 ```
-### :atom: How to use it ?
+### How to use it ?
 
 ```markdown
 
@@ -21,11 +21,11 @@
 - Or, you can directily download it and start coding :)
 
 ```
-### :telephone_receiver: Support or Contact :
+### Support or Contact :
 
-Having trouble with demos? Check out our :scroll: [documentation](https://mdevanulhasan.blogspot.com) or :email: [contact support](mailto:mdevanulhasan@gmail.com) and we’ll help you sort it out.
+Having trouble with demos? Check out our [documentation](https://mdevanulhasan.blogspot.com) or [contact support](mailto:mdevanulhasan@gmail.com) and we’ll help you sort it out.
 
-### :sunglasses: Conclusion :
+### Conclusion :
 
 ```markdown
 - If you want to increase your knowledge and contribute it to improve it more.
