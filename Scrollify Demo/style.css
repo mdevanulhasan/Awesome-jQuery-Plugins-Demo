@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+	padding: 10px;
+	background: purple;
+	color: #fff;
+}
+h2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #ddd;
+	text-shadow: 0px 0px 5px purple;
+}
+.section-1 {
+	height: 100vh;
+	background: #f00;
+	position: relative;
+}
+.section-2 {
+	height: 100vh;
+	background: #0f0;
+	position: relative;
+}
+.section-3 {
+	height: 100vh;
+	background: #00f;
+	position: relative;
+}
+.section-4 {
+	height: 100vh;
+	background: #ff0;
+	position: relative;
+}
+.section-5 {
+	height: 100vh;
+	background: #0ff;
+	position: relative;
+}
+.section-6 {
+	height: 100vh;
+	background: #f0f;
+	position: relative;
+}
