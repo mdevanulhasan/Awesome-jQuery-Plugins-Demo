@@ -1,6 +1,6 @@
 # Welcome to My GitHub Pages.
 
-## This "awesome plugins demo" is only use for educational purpose...!
+## This "awesome jquery plugins demo" is only use for educational purpose...!
 
 ### Where we can use ?
 
@@ -17,7 +17,7 @@
 ```markdown
 
 - If you have git in you OS (windows / mac / linux ) just open you terminal(mac/linux) or cmd(windows) and type
- `git clone https://github.com/mdevanulhasan/Awesome-Plugins-Demo.git`
+ `git clone https://github.com/mdevanulhasan/Awesome-jQuery-Plugins-Demo.git`
 - Or, you can directily download it and start coding :)
 
 ```
